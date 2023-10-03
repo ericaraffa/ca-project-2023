@@ -1,0 +1,6 @@
+﻿  DES_proj.cpp
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_proj\DES_proj\DES_proj.cpp(212,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_proj\DES_proj\DES_proj.cpp(221,63): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_proj\DES_proj\DES_proj.cpp(272,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_proj\DES_proj\DES_proj.cpp(282,71): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DES_proj.vcxproj -> C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_proj\x64\Debug\DES_proj.exe

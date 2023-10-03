@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\x64\Release\kernel.cu.obj "C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\kernel.cu" 
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\numberConversions.h(42): warning #177-D: variable "str" was declared but never referenced
+    	char* str;
+    	      ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\kernel.cu(37): warning #177-D: variable "dim" was declared but never referenced
+        int dim = len_key*num_key;
+            ^
+  
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\kernel.cu(263): warning #177-D: variable "c" was declared but never referenced
+        int c, n_groups; 
+            ^
+  
+  kernel.cu
+  tmpxft_00005700_00000000-7_kernel.cudafe1.cpp
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\kernel.cu(263): warning C4101: 'c': unreferenced local variable
+     Creating library C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\x64\Release\DES_cuda.lib and object C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\x64\Release\DES_cuda.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  DES_cuda.vcxproj -> C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\x64\Release\DES_cuda.exe

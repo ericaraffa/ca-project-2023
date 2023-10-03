@@ -1,0 +1,2 @@
+C:\Users\ericu\Documents\Uni\Magistrale\ComputerArchitecture\DES_cuda\DES_cuda\x64\Debug\DES_cuda.exe
+D:\Rick\Computer Engineering\Computer Architecture\DES_cuda\DES_cuda\x64\Debug\DES_cuda.exe
